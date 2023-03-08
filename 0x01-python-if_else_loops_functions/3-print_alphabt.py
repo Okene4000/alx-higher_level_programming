@@ -1,4 +1,4 @@
 #!/usr/bin/python3
-for character in range(97, 123):
-    if chr(alphabet) != 'e' and chr(alphabet) != 'q':
-        print("{}".format(chr(alphabet)), end="")
+for i in range(ord('a'), ord('z') + 1):
+    if chr(i) != 'e' and chr(i) != 'q':
+        print('{:c}'.format(i), end='')
