@@ -1,1 +1,1 @@
-This is he project for object relational mapping
+This is the project for object relational mapping
